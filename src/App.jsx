@@ -1,13 +1,13 @@
 import HelloWorld from "./components/HelloWorld"
+import PokemonList from "./components/PokemonList"
 
 
 function App() {
 
   return (
-    <>
-    <h1 className="text-4xl text-green-500">Vite + React</h1>
-   <HelloWorld/>
-    </>
+    <main className="h-screen">
+    <PokemonList/>
+    </main>
   )
 }
 
